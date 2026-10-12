@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <group>
+        <!-- Cinema Film Slate Body (Safe Zone: 26 to 82) -->
+        <!-- Film Reel Outer Ring -->
+        <path
+            android:fillColor="#1E293B"
+            android:strokeColor="#FFB800"
+            android:strokeWidth="3.2"
+            android:pathData="M54,26 C38.536,26 26,38.536 26,54 C26,69.464 38.536,82 54,82 C69.464,82 82,69.464 82,54 C82,38.536 69.464,26 54,26 Z" />
+
+        <!-- Cinema Clapper Bar on Top -->
+        <path
+            android:fillColor="#FFB800"
+            android:pathData="M33,33 L75,33 C76.1,33 77,33.9 77,35 L77,41 C77,42.1 76.1,43 75,43 L33,43 C31.9,43 31,42.1 31,41 L31,35 C31,33.9 31.9,33 33,33 Z" />
+
+        <!-- Clapper Stripes -->
+        <path
+            android:fillColor="#0B0F19"
+            android:pathData="M37,33 L42,33 L38,43 L33,43 Z" />
+        <path
+            android:fillColor="#0B0F19"
+            android:pathData="M48,33 L53,33 L49,43 L44,43 Z" />
+        <path
+            android:fillColor="#0B0F19"
+            android:pathData="M59,33 L64,33 L60,43 L55,43 Z" />
+        <path
+            android:fillColor="#0B0F19"
+            android:pathData="M70,33 L75,33 L71,43 L66,43 Z" />
+
+        <!-- Center Movie Play Screen / Disc -->
+        <path
+            android:fillColor="#0F172A"
+            android:pathData="M54,46 C47.373,46 42,51.373 42,58 C42,64.627 47.373,70 54,70 C60.627,70 66,64.627 66,58 C66,51.373 60.627,46 54,46 Z" />
+
+        <!-- Fast Download Arrow Inside Disc -->
+        <!-- Glowing Arrow Stem -->
+        <path
+            android:fillColor="#E50914"
+            android:pathData="M52,48 L56,48 L56,58 L61,58 L54,66 L47,58 L52,58 Z" />
+
+        <!-- Fast Download Speed Rays (Left & Right) -->
+        <path
+            android:fillColor="#FFB800"
+            android:pathData="M34,57 L38,57 L36,60 L32,60 Z" />
+        <path
+            android:fillColor="#FFB800"
+            android:pathData="M70,57 L74,57 L76,60 L72,60 Z" />
+
+        <!-- Bottom Speed Arc Accent -->
+        <path
+            android:strokeColor="#FFB800"
+            android:strokeWidth="2.5"
+            android:strokeLineCap="round"
+            android:pathData="M40,73 C44.1,75.5 48.9,77 54,77 C59.1,77 63.9,75.5 68,73" />
+    </group>
+</vector>
